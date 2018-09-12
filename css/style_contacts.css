@@ -1,0 +1,74 @@
+.about{
+	font:bold 18px TTDrugs, Intro, TimesNewRoman;
+}
+.social_contacts img{
+height:40px;
+margin-bottom:10px;
+opacity: 1;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+
+}
+.social_contacts img:hover{
+-webkit-filter: none;
+-moz-filter: none;
+-ms-filter: none;
+-o-filter: none;
+filter: none;
+}
+
+
+
+.submit{
+margin:10px;
+min-width:10%;
+}
+
+form>div{
+position:relative;
+}
+.message{
+min-width:80%;
+margin:10px;
+font: 18px TTDrugs, Intro, TimesNewRoman;
+}
+
+.message~#err {
+display:none;
+color: grey;
+position:absolute;
+top:15px;
+}
+.message~#done {
+display:none;
+color: rgba(181, 181, 181, 0.60);
+position:absolute;
+top:13px;
+}
+
+textarea{
+max-width:90%;
+max-height:100px;
+}
+
+.error~#err{
+display: inline;
+}
+
+.done~#done{
+display: inline;
+}
+
+@media all and (max-width:400px){
+.message{
+width:100px !important;
+}
+}

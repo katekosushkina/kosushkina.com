@@ -1,0 +1,221 @@
+@font-face {
+ font-family: Code;
+ src: local("Code"),
+ url('../fonts/Code.ttf') format('truetype'),
+ url('../fonts/Code.otf') format("opentype");
+}
+@font-face {
+ font-family: Komoda;
+ src: local("Komoda"),
+ url('../fonts/Komoda.ttf') format('truetype'),
+ url('../fonts/Komoda.otf') format("opentype");
+}
+@font-face {
+ font-family: Dense;
+ src: local("Dense"),
+ url('../fonts/Dense.otf') format("opentype");
+}
+@font-face {
+ font-family: Intro;
+ src: local("Intro"),
+ url('../fonts/Intro.otf') format("opentype");
+}
+@font-face {
+ font-family: TTDrugs;
+ src: local("TTDrugs"),
+ url('../fonts/TTDrugs.otf') format("opentype");
+}
+
+
+body{
+  position:relative;
+}
+header{
+margin-top:1px;
+	width:100%;
+	height:60px;
+  text-align: center;
+  padding: 2%;
+}
+
+header>a{
+	font:bold 36px Code, TimesNewRoman;
+	text-decoration:none;
+	color:#424242;
+	bottom:10px;
+}
+
+header>a>span{
+	font:30px Code, TimesNewRoman;
+}
+
+
+#language>button{
+	color:#858585;
+	text-decoration:none;
+	font:bold 18px  Code, TimesNewRoman;
+	border:none;
+	background-color:rgba(181, 181, 181, 0.60) !important;
+}
+
+
+
+#language{
+	position:fixed;
+  left:3px;
+	top:3px;
+}
+
+a.menu{
+  cursor: pointer !important;
+}
+
+nav{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+ul.nav{
+	margin:0px;
+	position:relative;
+
+}
+ul.nav>li{
+	display:inline-block;
+	margin:0 10px;
+  cursor: pointer !important;
+}
+
+ul.nav>li>a{
+	color:#424242;
+	text-decoration:none;
+	font: 400 18px TTDrugs, Intro, TimesNewRoman;
+
+}
+
+ul.nav>li>a:hover{
+	color:black;
+	background-color:rgba(181, 181, 181, 0.60) !important;
+}
+
+ul.nav>li>a:focus{
+	color:black;
+	background-color:rgba(181, 181, 181, 0.60) !important;
+}
+
+ul.nav>li>a:active{
+	color:black;
+	background-color:rgba(181, 181, 181, 0.60) !important;
+}
+.thisnav{
+	color:rgba(181, 181, 181, 0.80) !important;
+}
+
+header>a:hover{
+	text-decoration:none;
+	color:black;
+}
+
+header>a:focus{
+	text-decoration:none;
+	color:black;
+}
+
+#language>button:hover{
+	color:black;
+	border:none;
+	outline:none;
+}
+
+
+#language>button:focus{
+	color:black;
+	border:none;
+	outline:none;
+}
+
+
+.container{
+	width:100% !important;
+	float:left;
+	padding:0px !important;
+}
+
+#move_up{
+display: none;
+width:90px;
+height:3000px;
+position:fixed;
+top:0;
+right:0;
+z-index: 2;
+}
+#move_up:hover{
+	background-color:rgba(181, 181, 181, 0.60);
+}
+
+
+
+
+.triangle{
+	border:35px solid transparent;
+	border-bottom-width:20px;
+	border-bottom-style:solid;
+  border-bottom-color:rgba(181, 181, 181, 0.60)!important;
+	height:0;
+	width:0;
+	position:fixed;
+	right:10px;
+  top:20px;
+  color:black;
+  font: 15px TTDrugs;
+}
+
+
+.content{
+	width:60%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+footer{
+	float:left;
+	width:100%;
+	text-align:center;
+	color:black;
+  margin-top: 15px;
+}
+footer>span{
+font:bold 18px  Code,  TimesNewRoman;
+	margin:0px;
+}
+
+.pnp{
+	border:solid 3px rgba(217, 217, 217, 0.75) !important;
+	margin:5px 0;
+	background-color:rgba(217, 217, 217, 0.6) !important;
+
+}
+
+.icons img{
+  height:15px;
+  margin: 2px;
+}
+
+.btn-default{
+  position: absolute;
+  right:3px;
+  top:3px;
+  color:#858585 !important;
+  text-decoration:none !important;
+  font:bold 18px  Code, TTDrugs, TimesNewRoman !important;
+  border:none !important;
+  background-color:rgba(181, 181, 181, 0.60) !important;
+  background-image: none !important;
+  text-shadow: none!important;
+}
+.dropdown-menu{
+  float:none !important;
+  text-align: center !important;
+}

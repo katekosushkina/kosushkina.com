@@ -1,0 +1,32 @@
+.content{
+  text-align: center;
+  margin: 0 auto;
+}
+.slider_wrap {
+max-width:90%;
+overflow:hidden;
+height:430px;
+width:285.6px;
+margin: 0 auto;
+}
+.slider_wrap img {
+display:none;
+height:430px;
+}
+.slider_wrap img:first-child {
+display:block;
+}
+
+@media all and (min-width:1500px){
+  .slider_wrap {
+  max-width:90%;
+  overflow:hidden;
+  height:750px;
+  width:500px;
+  margin: 0 auto;
+  }
+  .slider_wrap img {
+  display:none;
+  height:750px;
+  }
+}

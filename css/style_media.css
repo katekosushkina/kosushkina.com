@@ -1,0 +1,94 @@
+@font-face {
+ font-family: Code;
+ src: local("Code"),
+ url('../fonts/Code.ttf') format('truetype'),
+ url('../fonts/Code.otf') format("opentype");
+}
+@font-face {
+ font-family: Komoda;
+ src: local("Komoda"),
+ url('../fonts/Komoda.ttf') format('truetype'),
+ url('../fonts/Komoda.otf') format("opentype");
+}
+@font-face {
+ font-family: Dense;
+ src: local("Dense"),
+ url('../fonts/Dense.otf') format("opentype");
+}
+@font-face {
+ font-family: Intro;
+ src: local("Intro"),
+ url('../fonts/Intro.otf') format("opentype");
+}
+@font-face {
+ font-family: TTDrugs;
+ src: local("TTDrugs"),
+ url('../fonts/TTDrugs.otf') format("opentype");
+}
+
+@media all and (max-width:890px){
+.triangle{
+	border:30px solid transparent !important;
+	border-bottom:15px solid rgba(181, 181, 181, 0.60) !important;
+
+}
+#move_up{
+	width:80px !important;
+
+}
+
+}
+
+@media all and (max-width:800px){
+.triangle{
+	border:25px solid transparent !important;
+	border-bottom:12px solid rgba(181, 181, 181, 0.60) !important;
+
+}
+#move_up{
+	width:70px !important;
+
+}
+
+}
+
+@media all and (max-width:720px){
+header{ text-align: right;}
+}
+@media all and (max-width:690px){
+.triangle{
+	border:20px solid transparent !important;
+	border-bottom:9px solid rgba(181, 181, 181, 0.60) !important;
+
+}
+
+#move_up{
+	width:60px !important;
+
+}
+}
+@media all and (max-width:620px){
+	header>a{
+	bottom: -10px !important;
+	font-size:30px !important;
+	position:relative !important;
+	}
+	header>a>span{
+	font-size:20px !important;
+	}
+}
+
+@media all and (max-width:600px){
+.triangle{
+	border:17px solid transparent !important;
+	border-bottom:8px solid rgba(181, 181, 181, 0.60) !important;
+	left:5px  !important;
+
+
+}
+#move_up{
+	width:44px !important;
+	background-color:rgba(181, 181, 181, 0.60)  !important;
+  left:0 !important;
+}
+}

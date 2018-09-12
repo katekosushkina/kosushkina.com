@@ -1,0 +1,174 @@
+@font-face {
+ font-family: Code;
+ src: local("Code"),
+ url('../fonts/Code.ttf') format('truetype'),
+ url('../fonts/Code.otf') format("opentype");
+}
+@font-face {
+ font-family: Komoda;
+ src: local("Komoda"),
+ url('../fonts/Komoda.ttf') format('truetype'),
+ url('../fonts/Komoda.otf') format("opentype");
+}
+@font-face {
+ font-family: Dense;
+ src: local("Dense"),
+ url('../fonts/Dense.otf') format("opentype");
+}
+@font-face {
+ font-family: Intro;
+ src: local("Intro"),
+ url('../fonts/Intro.otf') format("opentype");
+}
+@font-face {
+ font-family: TTDrugs;
+ src: local("TTDrugs"),
+ url('../fonts/TTDrugs.otf') format("opentype");
+}
+
+
+body.mobile header{
+        margin:0 !important;
+        padding:1px 0 0 7px !important;
+        height:50px !important;;
+        text-align: left !important;
+        width:250px !important;
+
+}
+
+body.mobile header>a{
+	color:#424242 !important;
+        bottom:-7px !important;
+        font:bold 24px  Code, TTDrugs !important;
+}
+body.mobile header>a>span{
+        font:bold 17px Code, TTDrugs !important;
+}
+
+body.mobile ul.nav>li{
+display:block !important;
+}
+
+body.mobile ul.nav>li>a{
+	color: black !important;
+	text-decoration:none;
+	font:bold 24px  TTDrugs !important;
+	background-color:rgba(217, 217, 217, 0.2) !important;
+}
+
+body.mobile nav{
+margin:33px 0px 0 0 !important;
+}
+
+body.mobile .triangle{
+  border: 22px solid transparent !important;
+  border-bottom: 22px solid white !important;
+  left:5px !important;
+  top:68% !important;
+}
+body.mobile #move_up{
+	width:45px !important;
+  height: 45px !important;
+	background-color:rgba(181, 181, 181, 0.60)  !important;
+  left:5px !important;
+  top:70% !important;
+  border: 1px solid white;
+  z-index: 1000 !important;
+}
+
+
+body.mobile #language{
+        position:absolute !important;
+        display:inline !important;
+        width:100% !important;
+        margin:0 !important;
+        padding:0 !important;
+        top: 60px !important;
+}
+body.mobile #language>button{
+        width:49% !important;
+        font:bold 16px TTDrugs !important;
+        margin:0 !important;
+        padding:0 !important;
+        bottom:2  !important;
+        box-sizing: border-box  !important;
+		display:inline !important;
+        margin-bottom:0px !important;
+}
+
+body.mobile .content{
+  width:100% !important;
+}
+
+body.mobile .glyphicon{
+  width:15px !important;
+  height:15px !important;
+}
+
+
+
+
+body.mobile ul.nav>li>a:active{
+	color:black;
+        background-color:none !important;
+}
+
+body.mobile header>a:hover{
+	text-decoration:none;
+	color:black;
+        background-color:none;
+}
+
+body.mobile header>a:focus{
+	text-decoration:none;
+	color:black;
+        background-color:none;
+}
+
+body.mobile #language>button:hover{
+	color:black;
+	border:none;
+	outline:none;
+}
+
+
+body.mobile #language>button:focus{
+	color:black;
+	border:none;
+	outline:none;
+}
+
+body.mobile .message{
+
+  border: 1px solid rgba(181, 181, 181, 0.60);
+  font: 20px TTDrugs !important;
+}
+body.mobile .about{
+        font: 20px TTDrugs !important;
+}
+body.mobile .title{
+        font:bold 20px TTDrugs !important;
+
+}
+body.mobile .text{
+        font: 17px TTDrugs !important;
+
+}
+ body.mobile a.bar>img{
+   max-height: 220px !important;
+ }
+ body.mobile footer{
+ font: bold 18px  Code,  TimesNewRoman !important;
+ }
+ body.mobile footer>span{
+ font: bold 18px  Code,  TimesNewRoman !important;
+ color:black !important;
+ }
+  body.mobile .icons img{
+   height:20px;
+   margin: 2px 2px 10px 2px;
+ }
+  body.mobile .social_contacts img {
+    height: 40px;
+    width: 40px;
+  }
